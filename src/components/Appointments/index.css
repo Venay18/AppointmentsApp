@@ -1,0 +1,104 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.response-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 86%;
+  max-width: 972px;
+}
+.add-appointment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.heading {
+  color: #171f46;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.label {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.input {
+  border-radius: 6px;
+  color: #171f46;
+  font-size: 16px;
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #b5b7c4;
+}
+.add-btn {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  font-weight: bold;
+  font-size: 14px;
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.appointment-name {
+  color: #171f46;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.starred-btn {
+  background-color: transparent;
+  color: #9897f0;
+  border: 2px solid #9897f0;
+  border-radius: 12px;
+  padding: 8px;
+  font-size: 12px;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
